@@ -1,0 +1,24 @@
+{
+  "popupsIntervalsBySession": {
+    "1": [
+      25
+    ]
+  },
+  "timeBetweenRvAndInterBySession": {
+    "1": 15
+  },
+  "gameTimeToFirstPopupBySession": {
+    "1": 15
+  },
+  "sessionTimeToFirstPopupBySession": {
+    "1": 15
+  },
+  "resetPopupTimerOnRVBySession": {
+    "1": false
+  },
+  "resetPopupTimerOnAppOpenBySession": {
+    "1": false
+  },
+  "firstPopupAtSession": 1,
+  "levelToFirstPopup": 0
+}

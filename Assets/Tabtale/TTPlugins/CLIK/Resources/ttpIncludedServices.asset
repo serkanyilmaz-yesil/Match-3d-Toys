@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2d77184448949bc8e6e903093950b9, type: 3}
+  m_Name: ttpIncludedServices
+  m_EditorClassIdentifier: 
+  appsFlyer: 1
+  analytics: 1
+  banners: 0
+  interstitials: 0
+  rvs: 0
+  crashTool: 0
+  privacySettings: 0
+  rateUs: 0
+  openAds: 0
+  rvInter: 0
+  promotion: 0
+  facebook: 0

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dependencies xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <androidPackages>
+    <repositories>
+      <repository>https://s3.amazonaws.com/com.tabtale.repo/android/maven/backup</repository>
+      <repository>https://s3.amazonaws.com/com.tabtale.repo/android/maven/ttplugins</repository>
+      <repository>https://s3.amazonaws.com/com.tabtale.repo/android/maven/thirdparty</repository>
+      <repository>https://s3.amazonaws.com/moat-sdk-builds</repository>
+      <repository>https://maven.ogury.co</repository>
+      <repository>https://android-sdk.is.com</repository>
+      <repository>https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea</repository>
+      <repository>https://jitpack.io</repository>
+      <repository>https://mvnrepository.com/artifact/com.inmobi.monetization/inmobi-ads</repository>
+      <repository>https://artifact.bytedance.com/repository/pangle</repository>
+    </repositories>
+    <androidPackage spec="com.tabtale.tt_plugins.android:TT_Plugins_Core:3.8.0.7.3" />
+    <androidPackage spec="com.tabtale.tt_plugins.android:TT_Plugins_Unity:3.8.0.0.1" />
+    <androidPackage spec="com.tabtale.tt_plugins.android:TT_Plugins_AppsFlyer:3.8.0.6.2" />
+    <androidPackage spec="com.tabtale.tt_plugins.android:TT_Plugins_Analytics:3.8.0.7.4" />
+    <androidPackage spec="com.tabtale.tt_plugins.android:TT_Plugins_FirebaseAgent:3.8.0.7.4" />
+    <androidPackage spec="com.tabtale.tt_plugins.android:TT_Plugins_Remote_Config:0.0.0.0.42" />
+  </androidPackages>
+  <iosPods>
+    <sources>
+      <source>https://s3.amazonaws.com/cl-cocoapods-repo</source>
+      <source>https://codecommit-ro-at-054024759590:RN1EkdaAskf1elwTA5rfWuSJtYvRvwHqRkdJN0bIfVo=@git-codecommit.us-east-1.amazonaws.com/v1/repos/CocoaPods</source>
+      <source>https://github.com/Vungle/ios-sdk-beta.git</source>
+    </sources>
+  </iosPods>
+</dependencies>

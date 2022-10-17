@@ -1,0 +1,29 @@
+﻿using UnityEditor;
+
+namespace Tabtale.TTPlugins.Interstitials
+{
+    [InitializeOnLoad]
+    public class DefineSymbol
+    {
+        static DefineSymbol()
+        {
+            Define("TTP_GAMEPROGRESSION");
+        }
+
+        static void Define(string symbol)
+        {
+            string currAndroid = PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildTargetGroup.Android);
+            if (!currAndroid.Contains(symbol))
+            {
+                currAndroid += ";" + symbol;
+                PlayerSettings.SetScriptingDefineSymbolsForGroup(BuildTargetGroup.Android, currAndroid);
+            }
+            string currIOS = PlayerSettings.GetScriptingDefineSymbolsForGroup(BuildTargetGroup.iOS);
+            if (!currIOS.Contains(symbol))
+            {
+                currIOS += ";" + symbol;
+                PlayerSettings.SetScriptingDefineSymbolsForGroup(BuildTargetGroup.iOS, currIOS);
+            }
+        }
+    }
+}
